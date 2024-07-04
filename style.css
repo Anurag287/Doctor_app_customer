@@ -1,0 +1,258 @@
+.hero-section_img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.doctor-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    top: 922px;
+    left: 913px;    
+}
+
+.doctor-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #0D7CEA;
+    border-radius: 2%;
+    text-align-last: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.header {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #007bff;
+    padding-left: 90px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #0D7CEA;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.button:hover {
+    background-color: #e9ecef;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.main_row {
+    background: linear-gradient(103.64deg, #E1F0FF -0.46%, #B8DBFF 105.11%);
+    padding: 30px 50px;
+}
+
+h2 {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #0D7CEA;
+    padding-top: 40px;
+}
+
+h1, p, h3 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62.5px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+
+.border-underline {
+    display: inline-block;
+    color: #007bff;
+    border-bottom: 8px solid #d3d3d3;
+    padding-bottom: 2px;
+    margin-bottom: 50px;
+    width: 80px;
+    white-space: nowrap;
+}
+
+/* .hero-section_img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.doctor-card img {
+    width: 228px;
+    height: 228px;
+    top: 922px;
+    left: 913px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;    
+}
+.doctor-card {
+    text-align: center;
+    align-content: center;
+    text-align-last: center;
+    padding: 20px;
+    border:#0D7CEA;
+    border-style: solid;
+    width: 337px;
+    height: 476px;
+    top: 877px;
+    left: 86px;
+    border-radius: 2%;
+    border: 1px 0px 0px 0px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.header {
+    font-family: Gothic A1;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #007bff;
+    padding-left: 90px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59d7e8;
+}
+.content img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #0D7CEA;
+    border:#ffffff;
+    border-style: solid;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 335px;
+    height: 86px;
+    top: 569px;
+    left: 90px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    font-family: Gothic A1;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+.button:hover {
+    background-color: #ffffff;
+}
+.gothic-a1-regular {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icon{
+    padding-left: 30px;
+    font-size: larger;
+}
+.main_row{
+    background: linear-gradient(103.64deg, #E1F0FF -0.46%, #B8DBFF 105.11%);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+h2{
+    font-family: Gothic A1;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #0D7CEA;
+    padding-top: 40px;
+}
+h1{
+    font-family: Gothic A1;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 62.5px;
+    text-align: left;
+}
+p{
+    font-family: Gothic A1;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+h3{
+    font-family: Gothic A1;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+}
+.border-underline {
+    display: inline-block;
+    color: #007bff;
+    border-bottom: 8px solid #d3d3d3;
+    padding-bottom: 2px;
+    margin-bottom: 50px;
+    width: 80px;
+    white-space: nowrap;
+}
+
+
+
+ */
